@@ -2,10 +2,75 @@
 <html>
     <head>
         <meta charset="UTP-8">
+        <meta name="viewpoint" content="width=device-widh, initial-scale=1">
         <title>Praktikum5</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                
+            }
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+
+            
+            header {
+                background-color: gray;
+                padding: 40px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+
+            nav {
+                -webkit-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+                background: rgb(158, 158, 158);
+                padding: 20px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            .video_container { 
+                text-align: center;
+               
+            }
+
+            footer {
+                background-color: gray;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+
+        </style>
     </head>
     <body>
+
+        <header>
+            <h1>Belajar Elemen Semantik</h1>
+        </header>
+
+        <nav>
+            <li><a href="layout.html">Home</a></li>
+            <li><a href="summary.html">About</a></li>
+            <li><a href="videogif.html">Video</a></li>
+            <li><a href="audio.html">audio</a></li>
+        </nav>
+
+        <div class="video_container">
         <h1>video youtube</h1>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Y_elJYFfoOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </body>
+    </div>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+    
+</body>
 </html>
