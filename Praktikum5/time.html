@@ -2,9 +2,73 @@
 <html>
     <head>
         <meta charset="UTP-8">
+        <meta name="viewpoint" content="width=device-widh, initial-scale=1">
         <title>Praktikum5</title>
+        <style>
+             
+            *{
+                box-sizing: border-box;
+                
+            }
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+
+            
+            header {
+                background-color: gray;
+                padding: 40px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+
+            nav {
+                -webkit-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+                background: rgb(158, 158, 158);
+                padding: 20px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            article {
+                -webkit-flex: 3;
+                -ms-flex: 3;
+                flex: 3;
+                background-color: whitesmoke;
+                padding: 70px;
+            }
+
+            footer {
+                background-color: gray;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+
+        </style>
+         
     </head>
     <body>
+       
+        <div class="container">
+
+        <header>
+            <h1>Belajar Elemen Semantik</h1>
+        </header>
+
+        <nav>
+            <li><a href="layout.html">Home</a></li>
+            <li><a href="summary.html">About</a></li>
+            <li><a href="videogif.html">Video</a></li>
+            <li><a href="audio.html">Audio</a></li>
+        </nav>
 
         <article>
             <h1>Time</h1>
@@ -17,5 +81,12 @@
                 <time>24:00</time>
             </p>
         </article>
-    </body>
-</html>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
+        </div>
+        
+        </body>
+
+    </html>
