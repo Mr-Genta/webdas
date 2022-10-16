@@ -24,61 +24,73 @@
 scale=1.0"> 
     <title>Personal Website</title>
     <style>
-             
-        *{
-            box-sizing: border-box;
+         
+         *{
+                box-sizing: border-box;
+                
+            }
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+
+            nav {
+                -webkit-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+                background: rgb(158, 158, 158);
+                padding: 20px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            .action-btn {
+                display: inline-block;
+                text-decoration: none;
+                color: black;
+                font-weight: 700;
+                background: whitesmoke;
+                padding: 0.5em 2em;
+                border-radius: 60px;
+                margin: 1em 0;
+                transition: 0.3s;
+            }
             
-        }
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            
-        }
+            header {
+                background-color: gray;
+                padding: 40px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
 
-        nav {
-            -webkit-flex: 1;
-            -ms-flex: 1;
-            flex: 1;
-            background: rgb(158, 158, 158);
-            padding: 20px;
-        }
+            article {
+                -webkit-flex: 3;
+                -ms-flex: 3;
+                flex: 3;
+                background-color: whitesmoke;
+                padding: 70px;
+            }
 
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        
-        header {
-            background-color: gray;
-            padding: 40px;
-            text-align: center;
-            font-size: 35px;
-            color: white;
-        }
-
-        article {
-            -webkit-flex: 3;
-            -ms-flex: 3;
-            flex: 3;
-            background-color: whitesmoke;
-            padding: 70px;
-        }
-
-        footer {
-            background-color: gray;
-            padding: 10px;
-            text-align: center;
-            color: white;
-        }
+            footer {
+                background-color: gray;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
 
     </style> 
 </head> 
  
 <body> 
     <nav> 
-        <a href="index.html">Home</a> | 
-        <a href="cv-name.pdf">Download CV</a> | 
-        <a href="kontak.html">Contact</a> | 
-        <a href="tentang.html">About me</a> 
+        <a href="index.html" class="action-btn">Home</a> 
+            <a href="break.html" class="action-btn">Download CV</a> 
+            <a href="kontak.html" class="action-btn">Contact</a> 
+            <a href="tentang.html" class="action-btn">About me</a>
     </nav> 
  
     <hr /> 
@@ -86,16 +98,21 @@ scale=1.0">
     <article> 
         <h1>Tentang Saya </h1> 
         <p> 
-            Hi, saya adalah web developer. 
-            Saat ini sedang belajar HTML. 
+            Hi, saya Genta. 
+            Saat ini saya belajar di kampus UDINUS. 
         </p> 
         <p> 
-            Saya masih baru dalam web development, karena itu 
-            saya tidak akan pernah berhenti belajar. 
+            Saya mahasiswa baru jurusan Teknik Informatika.
+            Saya berasal dari Purwodadi. 
         </p> 
         <p> 
-            Saya ingin menguasai bahasa HTML, CSS, dan Javascript. 
-            Simak video lengkap tentang saya. 
+            Saya masuk ke Teknik Informatika, 
+            Karena saya ingin membuat sesutu yang baru didunia teknologi. 
+             
+        </p>
+        <p>
+            Sekarang saya belajar tentang Pemrograman Berbasis Web.
+            Dibawah ini salah satu contoh Pemrograman Berbasis Web.
         </p> 
         <p> 
             
@@ -106,7 +123,7 @@ scale=1.0">
  
     <hr> 
     <footer style="text-align: center;"> 
-        <p>Copyright &copy; 2022 A11.2022.14092.</p> 
+        <p>Copyright 2022 &copy; A11.2022.14092.</p> 
     </footer> 
 </body> 
 </html>
