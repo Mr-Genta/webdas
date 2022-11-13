@@ -41,6 +41,7 @@ header ul li{
 header ul li a{
 	padding: 25px 20px;
 	display: inline-block;
+	font-size: 25px;
 }
 header ul li a:hover{
 	background-color: skyblue;
@@ -58,6 +59,7 @@ header ul li a:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 45px;
 }
 .banner:after{
 	content: " ";
@@ -82,11 +84,17 @@ section h3{
 	text-align: center;
 	padding: 20px 0;
 	color: skyblue;
+	font-size: 30px;
+}
+section h3 p{
+	size: 15px;
 }
 .about p{
-	color: #666;
+	color: #333;
 	word-spacing: 2px;
 	line-height: 25px;
+	font-size: 25px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .contact{
 	background-color: skyblue;
