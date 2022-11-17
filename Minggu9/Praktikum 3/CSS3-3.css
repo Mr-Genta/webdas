@@ -5,12 +5,12 @@ body{
    } 
      
    h1{ 
-    color: #fff; 
+        color: #fff; 
    } 
      
    .ketengah{ 
-    margin: 10px auto; 
-    width: 1150px; 
+        margin: 10px auto; 
+        width: 1150px; 
    } 
      
      
@@ -21,7 +21,7 @@ body{
    dan yang terakhir adalah mengatur warna bayangan 
    */ 
    .tulisan1{ 
-    text-shadow: 20px 10px 5px #232323;  
+        text-shadow: 20px 10px 5px #232323;  
    } 
      
    /* 
@@ -31,7 +31,7 @@ body{
    dan yang terakhir adalah mengatur warna bayangan 
    */ 
    .tulisan2{ 
-    text-shadow: 0px 0px 20px #232323;   
+        text-shadow: 0px 0px 20px #232323;   
    } 
      
      
@@ -44,12 +44,12 @@ body{
    dan yang terakhir adalah menentukan warna bayangan 
    */ 
    .kotak1{ 
-    background: white; 
-    width: 300px; 
-    height: 300px; 
-    margin: 20px; 
-    float: left; 
-    box-shadow: 20px 20px 40px 10px red; 
+        background: white; 
+        width: 300px; 
+        height: 300px; 
+        margin: 20px; 
+        float: left; 
+        box-shadow: 20px 20px 40px 10px red; 
    } 
      
      
@@ -61,10 +61,10 @@ body{
    dan yang terakhir adalah menentukan warna bayangan 
    */ 
    .kotak2{ 
-    background: white; 
-    width: 300px;  
-    margin: 20px; 
-    float: left; 
-    height: 300px; 
-    box-shadow: 0px 0px 10px 10px #333333; 
+        background: white; 
+        width: 300px;  
+        margin: 20px; 
+        float: left; 
+        height: 300px; 
+        box-shadow: 0px 0px 10px 10px #333333; 
    } 
